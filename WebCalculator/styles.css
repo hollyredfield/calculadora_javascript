@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator {
+    max-width: 375px;
+    margin: auto;
+}
+
+.calculator__display {
+    font-size: 2rem;
+}
+
+.key--operator {
+    transition: background-color 0.3s ease;
+}
+
+.key--operator:hover {
+    background-color: #ddd;
+}
+
+.key--equal {
+    background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+}
+
+.key--equal:hover {
+    background-color: #ff7033;
+}
